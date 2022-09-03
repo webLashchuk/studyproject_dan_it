@@ -81,7 +81,8 @@ main {
 
 .registration-container {
     height: 765px;
-    background-image: url("/img/main_banner.png");
+    background-image: url("../img/main_banner.png");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
