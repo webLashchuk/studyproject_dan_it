@@ -414,7 +414,7 @@ h4 {
 }
 
 .view-more-block li:before {
-    content: url("/img/list.svg");
+    content: url("../img/list.svg");
     padding-right: 5px;
 }
 
