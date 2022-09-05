@@ -61,7 +61,7 @@ header h1 a {
     text-decoration: none;
 }
 
-img {
+header img {
     margin-left: 28px;
 }
 
@@ -81,7 +81,7 @@ main {
 
 .registration-container {
     height: 765px;
-    background-image: url("../img/main_banner.png");
+    background-image: url("../img/main-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -111,6 +111,7 @@ main {
     font-weight: 400;
     padding-bottom: 20px;
 }
+
 .get_started_btn {
     width: 320px;
     height: 45px;
@@ -123,6 +124,7 @@ main {
     border: none;
     margin: 10px;
 }
+
 .view_treatment_btn {
     width: 320px;
     height: 45px;
@@ -135,14 +137,17 @@ main {
     line-height: 20px;
     font-weight: 400;
 }
-.get_started_btn:hover{
+
+.get_started_btn:hover {
     opacity: 0.7;
     cursor: pointer;
 }
-.view_treatment_btn:hover{
+
+.view_treatment_btn:hover {
     opacity: 0.7;
     cursor: pointer;
 }
+
 .services-container {
     padding: 40px;
     font-size: 16px;
@@ -151,9 +156,183 @@ main {
     color: #0B3B3C;
     justify-content: space-between;
 }
+
 .services-container div {
     align-items: center;
 }
+
 .services-container p {
     padding-left: 20px;
+}
+
+.info-block {
+    grid-area: info-block;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 62px;
+    text-align: center;
+    color: #0b3b3c;
+    padding: 80px 20px 20px;
+}
+
+/* trustpilot rating-block start*/
+.simple-rating {
+    max-width: 300px;
+    font-size: 18px;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    color: #0B3B3C;
+    margin: 0 auto;
+}
+
+.info-block a {
+    color: #00B67A;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.rated-word {
+    color: #73CF11;
+}
+
+.simple-rating p a:hover {
+    opacity: 0.7;
+}
+
+.simple-rating-items {
+    justify-content: center;
+}
+
+.star-rate {
+    width: 30px;
+    height: 30px;
+    background-color: #73CF11;
+    margin: 1px;
+}
+
+.star-rate:hover {
+    cursor: pointer;
+}
+
+.star-rate img {
+    position: relative;
+    top: 2px
+}
+
+.star-rate:nth-child(5) {
+    background-color: #DCDCE6;
+}
+
+.star-rate:nth-child(1):hover {
+    background-color: #FF3722;
+}
+
+.star-rate:nth-child(2):hover {
+    background-color: #FF8622;
+}
+
+.star-rate:nth-child(3):hover {
+    background-color: #FFCE00;
+}
+
+.star-rate:nth-child(4):hover {
+    opacity: 0.7;
+}
+
+.star-rate:nth-child(5):hover {
+    background-color: #00B67A;
+}
+
+.info-block p {
+    text-align: center;
+    padding: 15px;
+}
+
+/* trustpilot rating-block end*/
+
+.info-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: start;
+    background: url('../img/arrow-first.svg'),
+        url('../img/arrow-second.svg'),
+        url('../img/arrow-third.svg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-x: 370px, 750px, 550px;
+    background-position-y: 0px, 230px, 570px;
+    padding-bottom: 260px;
+}
+
+.info-image {
+    grid-template-columns: auto;
+    align-self: end;
+}
+
+.info-container h3 {
+    font-size: 25px;
+    color: #0B3B3C;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info-container p {
+    font-size: 18px;
+    color: #0B3B3C;
+    line-height: 32px;
+    text-align: center;
+    padding: 10px 10px 30px;
+}
+
+.image_arrow {
+    width: 110px;
+    margin: 0 auto;
+}
+
+.products-block {
+    grid-area: products-block;
+}
+.products-block h2 {
+    font-weight: 400;
+    padding: 60px 20px 20px;
+}
+.products-grid-container {
+    padding: 20px;
+    grid-template-columns: repeat(2, minmax(450px, 680px));
+    grid-template-rows: repeat(2, 650px);
+    grid-gap: 5px;
+    justify-content: center;
+}
+.products-container-block {
+    background-color: #E8EFE9;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #0B3B3C;
+}
+
+.products-image {
+justify-content: center;
+text-align: center;
+}
+
+.products-container-block p {
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px 80px;
 }
