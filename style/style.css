@@ -368,6 +368,7 @@ h4 {
     justify-content: space-between;
     padding: 20px;
 }
+
 .view-more-block {
     max-width: 750px;
     padding: 50px 100px 50px 20px;
@@ -400,6 +401,7 @@ h4 {
     font-size: 16px;
     line-height: 29px;
 }
+
 .view-more-btn {
     width: 320px;
     background-color: #7E0707;
@@ -415,29 +417,33 @@ h4 {
     content: url("/img/list.svg");
     padding-right: 5px;
 }
+
 .icons-grid-block {
     grid-template-columns: repeat(3, 150px);
     grid-template-rows: repeat(3, 150px);
     grid-gap: 15px;
     padding: 20px;
 }
+
 .icons-grid-block figure {
     background-color: #fff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .icons-grid-block figure:hover {
-cursor: pointer;
-border: 1px solid #0B3B3C;
+    cursor: pointer;
+    border: 1px solid #0B3B3C;
 }
+
 .icons-grid-block img {
     width: 50px;
 }
+
 .icons-grid-block figcaption {
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
     color: #0B3B3C
 }
-
