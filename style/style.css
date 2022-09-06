@@ -536,3 +536,15 @@ h4 {
     text-decoration: none;
     color: #7E0707;
 }
+.doctor-block {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.doctor-block a {
+    font-size: 18px;
+    line-height: 32px;
+    color: #0B3B3C;
+    font-weight: 400;
+    text-decoration: none;
+}
