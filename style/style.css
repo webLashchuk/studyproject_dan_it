@@ -24,7 +24,8 @@ menu {
 
 p {
     font-weight: 400;
-    color: #0B3B3C
+    color: #0B3B3C;
+    text-align: center;
 }
 
 .header-menu {
@@ -76,7 +77,8 @@ main {
         "info-block"
         "products-block"
         "team-block"
-        "promotion-block";
+        "promotion-block"
+        "footer";
 }
 
 .registration-block {
@@ -197,6 +199,7 @@ h2 {
     color: #00B67A;
     font-weight: 700;
     text-decoration: none;
+    justify-content: center;
 }
 
 .rated-word {
@@ -362,7 +365,7 @@ h4 {
 }
 
 .consultation-container {
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
     background-color: #E8EFE9;
     justify-content: space-between;
@@ -371,7 +374,7 @@ h4 {
 
 .view-more-block {
     max-width: 750px;
-    padding: 50px 100px 50px 20px;
+    padding: 75px 100px 75px 20px;
     justify-content: space-around;
     flex-direction: column;
 }
@@ -413,6 +416,11 @@ h4 {
     margin: 30px 0px;
 }
 
+.view-more-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 .view-more-block li:before {
     content: url("../img/list.svg");
     padding-right: 5px;
@@ -446,4 +454,31 @@ h4 {
     line-height: 30px;
     font-weight: 400;
     color: #0B3B3C
+}
+
+.team-block {
+    grid-area: team-block;
+    padding: 20px;
+}
+.doctor-small-section {
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    padding: 20px;
+}
+.doctor-small-section p {
+    padding: 5px;
+}
+.doctor-small-section img {
+    margin: 0 auto;
+}
+
+.trastpilot-rating-block {
+    padding: 20px;
+    margin: 40px auto 30px;
+    font-size: 12px;
+    line-height: 22px;
 }
