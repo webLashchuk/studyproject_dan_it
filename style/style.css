@@ -186,12 +186,7 @@ h2 {
 
 /* trustpilot rating-block start*/
 .simple-rating {
-    max-width: 300px;
-    font-size: 18px;
-    display: block;
-    line-height: 30px;
-    text-align: center;
-    color: #0B3B3C;
+    max-width: 165px;
     margin: 0 auto;
 }
 
@@ -212,6 +207,7 @@ h2 {
 
 .simple-rating-items {
     justify-content: center;
+    align-items: center;
 }
 
 .star-rate {
@@ -227,7 +223,8 @@ h2 {
 
 .star-rate img {
     position: relative;
-    top: 2px
+    top: 5px;
+    left: 4px
 }
 
 .star-rate:nth-child(5) {
@@ -317,7 +314,7 @@ h2 {
 .products-grid-container {
     padding: 20px;
     grid-template-columns: repeat(auto-fit, minmax(450px, 680px));
-    grid-template-rows: repeat(2, 650px);
+    grid-template-rows: 650px;
     grid-gap: 5px;
     justify-content: center;
     margin-bottom: 20px;
@@ -477,8 +474,19 @@ h4 {
 }
 
 .trastpilot-rating-block {
+    height: 110px;
     padding: 20px;
-    margin: 40px auto 30px;
+    margin: 30px auto 30px;
     font-size: 12px;
     line-height: 22px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.trastpilot-rating-block span {
+    font-size: 9px;
+}
+.trastpilot-rate-panel {
+    width: 350px;
+    justify-content: space-between;
+    align-self: center;
 }
