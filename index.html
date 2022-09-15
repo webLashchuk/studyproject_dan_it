@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body>
+<body onmousedown="return false" onselectstart="return false">
     <header class="d-grid">
         <menu class="d-flex">
             <li>
@@ -259,49 +259,68 @@
                 <p>Based on <span>3906</span> reviews</p>
             </div>
             <div class="slider-block-container d-flex">
-                <div class="slider-block-item d-flex">
-                    <div class="stars-block d-flex">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                    </div>
-                    <div class="slider-review-text">
-                        <p>Great product love the smell and the feeling.</p>
-                    </div>
-                    <div class="nickname-container">
-                        <p>Simon</p>
-                    </div>
-                </div>
-                <div class="slider-block-item">
-                    <div class="stars-block d-flex">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                    </div>
-                    <div class="slider-review-text">
-                        <p>Quick and discreet and saved me a trip to the GP.</p>
-                    </div>
-                    <div class="nickname-container">
-                        <p>Zender</p>
-                    </div>
-                </div>
-                <div class="slider-block-item">
-                    <div class="stars-block d-flex">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                        <img src="img/slider-star.svg" alt="star">
-                    </div>
-                    <div class="slider-review-text">
-                        <p>Great product, restores confidence and performance!</p>
-                    </div>
-                    <div class="nickname-container">
-                        <p>Francis</p>
+                <div class="wrapper">
+                    <div class="slider">
+                        <div class="slider-block-item d-flex">
+                            <div class="stars-block d-flex">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                            </div>
+                            <div class="slider-review-text">
+                                <p>Great product love the smell and the feeling.</p>
+                            </div>
+                            <div class="nickname-container">
+                                <p>Simon</p>
+                            </div>
+                        </div>
+                        <div class="slider-block-item d-flex">
+                            <div class="stars-block d-flex">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                            </div>
+                            <div class="slider-review-text">
+                                <p>Great product love the smell and the feeling.</p>
+                            </div>
+                            <div class="nickname-container">
+                                <p>Zender</p>
+                            </div>
+                        </div>
+                        <div class="slider-block-item d-flex">
+                            <div class="stars-block d-flex">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                            </div>
+                            <div class="slider-review-text">
+                                <p>Great product love the smell and the feeling.</p>
+                            </div>
+                            <div class="nickname-container">
+                                <p>Francis</p>
+                            </div>
+                        </div>
+                        <div class="slider-block-item d-flex">
+                            <div class="stars-block d-flex">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                                <img src="img/slider-star.svg" alt="star">
+                            </div>
+                            <div class="slider-review-text">
+                                <p>Great product love the smell and the feeling.</p>
+                            </div>
+                            <div class="nickname-container">
+                                <p>Damon</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -481,6 +500,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
