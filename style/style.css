@@ -266,20 +266,18 @@ h2 {
     padding: 15px;
 }
 
-/* trustpilot rating-block end*/
-
 .info-container {
     max-width: 1250px;
     margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, 350px);
-    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, 30%);
+    grid-gap: 30px;
     justify-content: center;
     align-items: center;
     background: url('../img/arrow-first.svg'),
         url('../img/arrow-second.svg'),
         url('../img/arrow-third.svg');
     background-repeat: no-repeat;
-    background-position: absolute;
+    background-position: relative;
     background-position-x: 370px, 750px, 550px;
     background-position-y: 0px, 230px, 530px;
     padding-bottom: 260px;
@@ -679,7 +677,7 @@ h4 {
 }
 
 .promotion-block-container {
-    width: 1440px;
+    max-width: 1440px;
     height: 820px;
     margin: 0 auto;
     align-items: center;

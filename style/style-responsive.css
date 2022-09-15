@@ -1,0 +1,16 @@
+@media(max-width:1250px) {
+    .info-container{
+        background: none;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width:1020px) {
+    .info-container{
+        grid-template-columns: 350px;
+        padding-top: 40px;
+    }
+    .info-container p {
+        padding: 10px 10px 10px;
+    }
+}
