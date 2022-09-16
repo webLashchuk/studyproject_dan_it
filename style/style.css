@@ -5,7 +5,7 @@
 }
 
 body {
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-family: TTNorms-Regular, BasisGrotesquePro, Arial, sans-serif;
 }
 
@@ -366,7 +366,7 @@ h4 {
 }
 
 .view-more-block {
-    max-width: 650px;
+    width: 50%;
     padding: 75px 20px 75px 20px;
     justify-content: space-around;
     flex-direction: column;
@@ -502,7 +502,7 @@ h4 {
 .wrapper {
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 20px;
 }
 
 .slick-list {
@@ -530,13 +530,13 @@ h4 {
 }
 
 .slider-review-text {
-
+    max-width: 90%;
     font-size: 28px;
     line-height: 45px;
     padding-top: 50px;
 }
 
-.nickname-container p {
+.nickname-container {
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;

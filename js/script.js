@@ -10,9 +10,16 @@ $(document).ready(function () {
         variableWidth: true,
         responsive: [
             {
+                breakpoint: 1020,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ],
