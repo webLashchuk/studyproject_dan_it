@@ -20,6 +20,11 @@
 }
 
 @media(max-width:1020px) {
+
+    .logo-container img {
+        width: 125px;
+    }
+
     .info-container {
         grid-template-columns: 350px;
         padding-top: 40px;
@@ -57,9 +62,137 @@
     .slider {
         padding: 0px;
     }
-}
+
+    .medical-consultation-block {
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+
+    .medical-consultation-text {
+        max-width: 100%;
+        margin-right: 0px;
+        text-align: left;
+    }
+
+    .consultation-text {
+        font-size: 18px;
+        line-height: 38px;
+        text-align: center;
+    }
+    
+    .consultation-text-description {
+        text-align: center;
+    }
+}    
+
 
 @media(max-width:768px) {
+
+    main {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .header-body {
+        height: 50px;
+    }
+    .header-burger {
+        display: block;
+        position: relative;
+        right:0;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+
+    .header-burger span {
+        position: absolute;
+        background-color: #0B3B3C;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 10px;
+    }
+
+    .header-burger:before,
+    .header-burger:after {
+        content: '';
+        background-color: #0B3B3C;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+
+    .header-burger:before {
+        top: 0;
+    }
+
+    .header-burger:after {
+        bottom: 0;
+    }
+
+    .logo-container {
+        width: 100%;
+        justify-self: center;
+        padding-top: 10px;
+    }
+
+    .navigation-menu {
+        display: none;
+        /* position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        justify-content: left;
+        padding: 100px 0px 0px 0px;
+        opacity: 0.7; */
+    }
+
+    .header-menu menu {
+        display: none;
+        /* position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        justify-content: center;
+        padding: 70px 0px 0px 0px;
+        opacity: 0.7; */
+    }
+    .registration-container {
+        max-height: 500px;
+    }
+
+    .registration-container h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .services-container div {
+        padding: 10px;
+    }
+
+    .info-block {
+        grid-area: info-block;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    
+    h2 {
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        color: #0b3b3c;
+        padding: 20px 20px 20px;
+    }
+
     .slider-block-item {
         max-width: 320px;
         height: 300px;
@@ -83,9 +216,52 @@
         font-weight: 700;
         padding-top: 50px;
     }
+
+    .medical-team-text {
+        max-width: 70%;
+        font-size: 18px;
+        line-height: 32px;
+        padding: 0px 20px;
+    }
+
+    .medical-consultation-text {
+        max-width: 60%;
+        margin-right: 50px;
+        text-align: left;
+    }
+
+    .promotion-block-container {
+        display:none;
+    }
+
+    .promotion-buttons-block {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .promotion-buttons-block button {
+        width: 100%;
+    }
+
+    .articles-block-description {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .footer-block {
+        padding: 20px;
+    }
+
+    .footer-bottom-container {
+        padding: 20px 0px;
+    }
 }
 
-@media(max-width:768px) {
+@media(max-width:480px) {
+    .registration-container {
+        background-image: none;
+    }
     .icons-grid-block {
         grid-template-columns: repeat(3, 100px);
         grid-template-rows: repeat(3, 100px);
@@ -93,5 +269,9 @@
 
     .icons-grid-block img {
         width: 40px;
+    }
+
+    .team-block {
+        padding: 10px;
     }
 }
