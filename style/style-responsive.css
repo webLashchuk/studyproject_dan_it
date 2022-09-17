@@ -194,6 +194,10 @@
         padding: 20px 20px 20px;
     }
 
+    .products-container-block p {
+        padding: 10px 40px;
+    }
+
     .slider-block-item {
         max-width: 320px;
         height: 300px;
