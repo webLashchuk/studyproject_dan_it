@@ -90,7 +90,7 @@
 @media(max-width:768px) {
 
     main {
-        padding: 50px 10px 0px 10px;
+        padding: 50px 0px 0px 10px;
     }
 
     .header-body {
@@ -162,6 +162,10 @@
         justify-content: center;
         padding: 70px 0px 0px 0px;
         opacity: 0.7; */
+    }
+    
+    .registration-block {
+        padding: 0px 10px;
     }
     .registration-container {
         max-height: 500px;
