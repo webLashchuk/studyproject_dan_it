@@ -80,11 +80,11 @@
         line-height: 38px;
         text-align: center;
     }
-    
+
     .consultation-text-description {
         text-align: center;
     }
-}    
+}
 
 
 @media(max-width:768px) {
@@ -97,10 +97,11 @@
         height: 50px;
         padding: 10px 20px;
     }
+
     .header-burger {
         display: block;
         position: relative;
-        right:0;
+        right: 0;
         width: 30px;
         height: 20px;
         z-index: 3;
@@ -164,10 +165,11 @@
         padding: 70px 0px 0px 0px;
         opacity: 0.7; */
     }
-    
+
     .registration-block {
         padding: 0px 10px;
     }
+
     .registration-container {
         max-height: 500px;
     }
@@ -190,7 +192,7 @@
         grid-area: info-block;
         border: 1px solid rgba(0, 0, 0, 0.3);
     }
-    
+
     h2 {
         font-size: 28px;
         line-height: 50px;
@@ -202,16 +204,19 @@
     .products-grid-container {
         padding: 0px;
         grid-template-columns: 100%;
-        grid-gap: 5px;
         justify-content: center;
-        margin-bottom: 20px;
     }
 
-     .products-image img{
+    .products-block h2 {
+        font-weight: 400;
+        padding: 30px 20px 20px;
+    }
+    
+    .products-image img {
         max-height: 300px;
         justify-content: center;
     }
-    
+
     .products-container-block {
         padding: 10px 10px 20px;
     }
@@ -225,7 +230,7 @@
         margin: 0 auto;
         background-color: #E8EFE9;
         justify-content: space-between;
-        padding: 0px;
+        padding: 0px 0px 20px 0px;
         flex-wrap: wrap;
     }
 
@@ -233,7 +238,7 @@
         padding: 10px 0px;
         margin: 30px auto 30px;
     }
-    
+
     .slider-block-item {
         max-width: 320px;
         height: 300px;
@@ -271,7 +276,7 @@
     }
 
     .promotion-block-container {
-        display:none;
+        display: none;
     }
 
     .promotion-buttons-block {
@@ -302,6 +307,7 @@
     .registration-container {
         background-image: none;
     }
+
     .icons-grid-block {
         grid-template-columns: repeat(3, 100px);
         grid-template-rows: repeat(3, 100px);
@@ -312,8 +318,9 @@
     }
 
     .team-block {
-        padding: 0px;
+        padding: 10px;
     }
+
     .logo-social-container {
         flex-direction: column;
     }
