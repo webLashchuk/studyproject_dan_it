@@ -90,7 +90,7 @@
 @media(max-width:768px) {
 
     main {
-        padding: 50px 0px 0px 10px;
+        padding: 50px 0px 10px 0px;
     }
 
     .header-body {
@@ -196,6 +196,15 @@
         text-align: center;
         color: #0b3b3c;
         padding: 20px 20px 20px;
+    }
+
+    .products-grid-container {
+        padding: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(380px, 680px));
+        grid-template-rows: 650px;
+        grid-gap: 5px;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 
     .products-container-block p {
