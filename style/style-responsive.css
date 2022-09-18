@@ -201,15 +201,14 @@
 
     .products-grid-container {
         padding: 0px;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 680px));
-        grid-template-rows: 650px;
+        grid-template-columns: 100%;
         grid-gap: 5px;
         justify-content: center;
         margin-bottom: 20px;
     }
 
-    .products-image {
-        height: 300px;
+     .products-image img{
+        max-height: 300px;
         justify-content: center;
     }
     
@@ -218,7 +217,7 @@
     }
 
     .products-container-block p {
-        padding: 10px 10px;
+        padding: 10px 20px;
     }
 
     .consultation-container {
@@ -231,13 +230,8 @@
     }
 
     .trastpilot-rating-block {
-        height: 110px;
         padding: 10px 0px;
         margin: 30px auto 30px;
-        font-size: 12px;
-        line-height: 22px;
-        flex-direction: column;
-        justify-content: space-between;
     }
     
     .slider-block-item {

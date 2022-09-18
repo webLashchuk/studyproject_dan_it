@@ -325,8 +325,9 @@ h2 {
 }
 
 .products-block {
+    max-width: 1920px;
     grid-area: products-block;
-    display: none;
+    margin: 0 auto;
 }
 
 .products-block h2 {
@@ -335,8 +336,9 @@ h2 {
 }
 
 .products-grid-container {
+    max-width: 1920px;
     padding: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 680px));
+    grid-template-columns: repeat(auto-fit, minmax(340px, 680px));
     grid-template-rows: 650px;
     grid-gap: 5px;
     justify-content: center;
@@ -346,6 +348,7 @@ h2 {
 .products-container-block {
     background-color: #E8EFE9;
     justify-content: space-around;
+    align-items: center;
     flex-direction: column;
     padding: 10px 20px 40px;
 }
@@ -358,7 +361,7 @@ h4 {
 }
 
 .products-image {
-    height: 400px;
+    max-height: 60%;
     justify-content: center;
 }
 
