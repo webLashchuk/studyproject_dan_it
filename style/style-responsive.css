@@ -221,6 +221,15 @@
         padding: 10px 10px;
     }
 
+    .consultation-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: #E8EFE9;
+        justify-content: space-between;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+
     .trastpilot-rating-block {
         height: 110px;
         padding: 10px 0px;
@@ -231,7 +240,6 @@
         justify-content: space-between;
     }
     
-
     .slider-block-item {
         max-width: 320px;
         height: 300px;
