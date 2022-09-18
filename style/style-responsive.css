@@ -291,4 +291,7 @@
     .team-block {
         padding: 10px;
     }
+    .logo-social-container {
+        flex-direction: column;
+    }
 }
