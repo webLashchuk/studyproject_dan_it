@@ -188,11 +188,12 @@
     } */
 
     .registration-block {
-        padding: 0px 10px;
+        padding: 0;
     }
 
     .registration-container {
-        max-height: 500px;
+        padding: 10px;
+        max-height: 550px;
     }
 
     .registration-container h1 {
