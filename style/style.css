@@ -16,7 +16,68 @@ body {
     font-family: TTNorms-Regular, BasisGrotesquePro, Arial, sans-serif;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .header {
+    background-color: #fff;
+    padding: 33px 0 32px;
+    color: #0B3B3C;
+    font-size: 12px;
+    line-height: 14px;
+    box-shadow: 0px 0px 8px #999;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.menu {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.menu-item {
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.header-menu {
+    justify-content: right;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+/* .header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -56,6 +117,8 @@ body {
     list-style: none;
     column-gap: 28px;
     z-index: 2;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 p {
@@ -77,6 +140,8 @@ a:hover {
     justify-content: right;
     align-items: center;
     z-index: 2;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .header-menu li{
@@ -104,7 +169,7 @@ a:hover {
 
 .buy-bucket {
     z-index: 4;
-}
+} */
 
 main {
     grid-template-columns: 100%;
@@ -116,7 +181,7 @@ main {
         "promotion-block"
         "block-of-articles"
         "footer-block";
-        padding: 80px 0px 0px 0px;
+        padding: 0;
 }
 
 .registration-block {

@@ -12,39 +12,41 @@
 </head>
 
 <body onmousedown="return false" onselectstart="return false">
+
     <header class="header">
-        <div class="header-body d-flex">
-            <div class="header-burger">
-                <span></span>
-            </div>
-            <menu class="navigation-menu d-flex">
-                <li>
-                    <a class="nav_link" href="#">
-                        SHOP
-                    </a>
-                </li>
-                <li>
-                    <a class="nav_link" href="mailto:read@gmail.com">
-                        read@gmail.com
-                    </a>
-                </li>
-                <li><a class="nav_link" href="tel:020 8004 7160">020 8004 7160</a></li>
-            </menu>
-           
-            <div class="logo-container d-flex"><a href="#"><img src="img/logo.svg" alt="logo"></a></div>
-            <div class="header-menu d-flex">
-                <menu class="d-flex">
-                    <li>
-                        <a class="nav_link" href="#" target="_blank">About</a>
+        <div class="container d-flex">
+            <nav class="nav">
+                <button class="menu-btn" type="button">
+                    <span class="btn-line"></span>
+                    <span class="btn-line"></span>
+                    <span class="btn-line"></span>
+                    <span class="btn-line"></span>
+                </button>
+                <ul class="menu d-flex">
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">SHOP</a>
                     </li>
-                    <li>
-                        <a class="nav_link" href="#">Login</a>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Read</a>
                     </li>
-                </menu>
-            </div>
-            <div class="buy-bucket"><a href="#"><img src="img/bucket.svg" alt="bucket"></a></div>
+                    <li class="menu-item">
+                        <a class="menu-link" href="tel:380954536321">+38(095) 453-63-21</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="logo">
+                <img class="logo-img" src="img/logo.svg" alt="logo">
+            </a>
+                <ul class="header-menu d-flex">
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Login</a>
+                    </li>
+                </ul>
+            <a class="buy-bucket" href="#"><img src="img/bucket.svg" alt="bucket"></a>
         </div>
-        
     </header>
     <main class="d-grid">
         <section class="registration-block">
@@ -491,6 +493,7 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
